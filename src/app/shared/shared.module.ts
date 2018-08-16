@@ -9,7 +9,13 @@ import {
   MatListModule,
   MatGridListModule,
   MatCardModule,
-  MatMenuModule
+  MatMenuModule,
+  MatFormFieldModule,
+  MatCheckboxModule,
+  MatRadioModule,
+  MatSelectModule,
+  MatOptionModule
+
 } from '@angular/material';
 
 @NgModule({
@@ -22,7 +28,12 @@ import {
     MatListModule,
     MatGridListModule,
     MatCardModule,
-    MatMenuModule
+    MatMenuModule,
+    MatFormFieldModule,
+    MatCheckboxModule,
+    MatRadioModule,
+    MatSelectModule,
+    MatOptionModule
   ],
   exports: [
     LayoutModule,
@@ -33,7 +44,12 @@ import {
     MatListModule,
     MatGridListModule,
     MatCardModule,
-    MatMenuModule
+    MatMenuModule,
+    MatFormFieldModule,
+    MatCheckboxModule,
+    MatRadioModule,
+    MatSelectModule,
+    MatOptionModule
   ]
 })
 export class SharedModule {}
