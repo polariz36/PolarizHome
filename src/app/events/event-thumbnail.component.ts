@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, Input } from "@angular/core";
 
 @Component({
   selector: "app-event-thumbnail",
@@ -6,5 +6,8 @@ import { Component } from "@angular/core";
   styleUrls: ["./event-thumbnail.component.scss"]
 })
 export class EventThumbnailComponent {
+  @Input()
+  event: any;
+
   constructor() {}
 }
